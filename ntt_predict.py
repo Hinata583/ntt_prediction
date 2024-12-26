@@ -63,10 +63,6 @@ r2 = r2_score(y_test[0], test_predict[:, 0])
 print('RMSE: {:.2f}'.format(rmse))
 print('R^2: {:.2f}'.format(r2))
 
-# Output
-# MSE: 50.24
-# R^2: 0.94
-
 # プロット
 #　ｘ軸日付の反映
 fig, ax = plt.subplots()
